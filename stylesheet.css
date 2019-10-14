@@ -1,0 +1,198 @@
+html {box-sizing: border-box;}
+*,*::before,*::after{box-sizing: inherit;}
+
+.container{
+    width:1300px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.body{
+    display:grid;
+    grid-template-columns:1fr 4fr;
+}
+
+header{
+    
+    display:flex;
+   flex-direction: column;
+
+}
+
+.dropdown > img{
+    width:70px;
+}
+.dropdown{
+ display:flex;
+ justify-content: start;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top>p{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.search {
+    width: 824px;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+figcaption{
+    margin:13px;
+}
+main{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap:10px;
+}
+.gift{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color:black;
+}
+.display{
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+   
+}
+/* .display:hover .overlay{
+    background-image: url(/Create-Etsy-Search-Page/assets/heart.png);
+    background-repeat: no-repeat;
+    background-size: 1000%;
+    background-position-x: 30px;
+    background-position-y: 300px;
+
+} */
+
+.title {
+    margin:0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+.price{
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.display img{
+    width:100%;
+
+}
+.display p{
+    margin:0;
+    line-height: 22px;
+}
+.des{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#ccc;
+
+} */
+aside{
+font-family:sans-serif;
+text-align: left;
+}
+
+.menu{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+.bubbles{
+display:flex;
+justify-content: space-between;
+font-size: 14px;
+color:#232323
+}
+
+.bubbles > p{
+    background: #e4936d;
+    border-radius: 25px;
+    padding:17px;
+    text-align: center;
+    line-height: 0.3;
+    height:39px;
+}
+li{
+    list-style: none;
+}
+.one>p{
+    text-align: left;
+    line-height: 10px;
+    padding-left:14px;
+
+}
+button{
+    margin-top:8px;
+    margin-bottom:38px;
+    padding-left:13px;
+   padding-right: 14px;
+   background-color: transparent;
+   border-color: black;
+   border-radius: 5px;
+   font-size:13px;
+}
+.cart{
+    padding:9px; 
+    margin:0;
+    color: rgb(165, 164, 164);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #ccc;
+    line-height: 0;
+    }
+.cat{
+    color:rgb(61, 61, 61);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 23px;
+}
+#products{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: 12px;
+
+}
+.bot{
+    border:transparent;
+    border-radius: 25px;
+    color: black; 
+    font-size: 12px;
+}
+.bot:hover{
+    background-color:#ccc;
+
+}
+.low, .high {
+    width: 52px;
+    height: 31px;
+    font-size: 12px;
+    color: #ccc;
+    border-radius: 5px;
+
+}
+select{
+    width: 216px;
+    height: 52px;
+    font-size: 15px;
+    color: #313030;
+}
